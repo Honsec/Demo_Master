@@ -27,6 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 test.setText(test.getText()+"\n"+"calback  errod:"+ i+":"+s );
             }
         });
-        test.setText(test.getText()+"\n"+"Mid:"+MidService.getMid(this)+"\n"+"LocalMid:"+MidService.getLocalMidOnly(this));
+        int i =0 ;
     }
 }
